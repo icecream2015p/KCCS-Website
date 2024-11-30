@@ -6,8 +6,13 @@
     </head>
     <body>
         <script defer src="pagemove.js"></script>
+        <script defer>
+            function browserplay(){
+                open("browser/")
+            }
+        </script>
         <h1>KCCSウェブサイトへようこそ</h1>
         <button onclick="pagemove('https://github.com/icecream2015p/KCCS-App/releases', true, true)">PC用アプリをダウンロード</button><br>
-        <button onclick="pagemove('browser/', false, false)">ブラウザ版を使用</button>
+        <button onclick="browserplay()">ブラウザ版を使用</button>
     </body>
 </html>
