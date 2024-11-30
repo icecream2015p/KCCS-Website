@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>KCCSウェブサイト</title>
-        <link rel="icon" href="pageicon.png">
-    </head>
-    <body>
-        <script defer src="pagemove.js"></script>
-        <script defer>
-            function browserplay(){
-                open("browser/")
-            }
-        </script>
-        <h1>KCCSウェブサイトへようこそ</h1>
-        <button onclick="pagemove('https://github.com/icecream2015p/KCCS-App/releases', true, true)">PC用アプリをダウンロード</button><br>
-        <button onclick="browserplay()">ブラウザ版を使用</button>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCCSウェブサイト</title>
+    <link rel="icon" href="pageicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script defer src="pagemove.js"></script>
+    <script defer>
+        function browserplay() {
+            open("browser/");
+        }
+    </script>
+    <h1>KCCSウェブサイトへようこそ</h1>
+    <div style="text-align: center;">
+        <button onclick="pagemove('https://github.com/icecream2015p/KCCS-App/releases', true, true)" style="margin: 10px;">PC用アプリをダウンロード</button><br>
+        <button onclick="browserplay()" style="margin: 10px;">ブラウザ版を使用</button>
+    </div>
+</body>
 </html>
